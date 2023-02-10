@@ -1,0 +1,429 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-nav {
+    display: flex;
+    box-shadow: 0px 1px 15px 0px rgba(0,0,0,0.5);
+}
+
+.top-nav-header {
+    font-weight: lighter;
+    font-size: 180%;
+    flex-basis: 60%;
+    margin: 1%;
+}
+
+.search-container {
+    width: 20%;
+    height: 50px;
+    background-color: #707070;
+    display: flex;
+    align-items: center;
+    border-radius: 14px;
+    margin-top: 1.5%;
+    margin-right: 2%;
+}
+
+.search {
+    background-color: #707070;
+    font-size: 165%;
+    border: none;
+    position: relative;
+    left: 3%;
+}
+
+.search-container ::placeholder {
+    color: white;
+}
+
+.search-icon {
+    width: 15%;
+    padding: 0 12px;
+    border: none;
+    position: relative;
+    left: 5%;
+}
+
+.sign-in-up {
+    font-size: 160%;
+    font-weight: 100;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+
+.cart-icon {
+    width: 2.5%;
+    height: 45px;
+    margin-top: 1.5%;
+}
+
+.header-image {
+    position: relative;
+}
+
+.header-image h1 {
+    font-size: 400%;
+    font-weight: 100;
+    line-height: 100px;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
+
+.header-image h2 {
+    font-size: 300%;
+    font-weight: 100;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+.shop-gender {
+    background-color: #707070;
+    color: white;
+    text-align: center;
+}
+
+.shop-gender-header {
+    font-size: 300%;
+    margin-top: 0;
+    padding-top: 2%;
+    font-weight: lighter;
+}
+
+.shop-gender-links {
+    font-size: 150%;
+    display: flex;
+    justify-content: center;
+}
+
+.shop-gender-links a {
+    color: white;
+    margin: 0 2%;
+}
+
+.nav-categories {
+    margin-bottom: 10%;
+}
+
+.nav-headers {
+    font-size: 500%;
+    font-weight: lighter;
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+
+.nav-item-type {
+    margin-left: 30%;
+}
+
+.nav-offers {
+    margin-left: 20.65%;
+}
+
+.offers-container {
+    position: relative;
+}
+
+.nav-offers-headers {
+    font-size: 350%;
+    font-weight: lighter;
+    position: absolute;
+    top: 0;
+    left: 10%;
+    color: #F6F8F2;
+}
+
+.nav-offers-paragraphs {
+    font-size: 300%;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    color: #F6F8F2;
+}
+
+.get-now {
+    position: absolute;
+    top: 82%;
+    left: 33%;
+    padding: 4% 6%;
+}
+
+footer {
+    background-color: #292828;
+    color: white;
+    margin-top: 7%;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-headers {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 80%;
+    left: 20%;
+    margin-top: 2%;
+}
+
+.footer-headers h1 {
+    font-size: 250%;
+    font-weight: lighter;
+}
+
+.footer-headers p {
+    font-size: 140%;
+    font-weight: lighter;
+}
+
+.socials {
+    text-align: right;
+    margin-right: 0.5%;
+}
+
+.footer-bottom {
+    display: flex;
+}
+
+.footer-bottom p {
+    font-size: 120%;
+    margin: 1% 0% 2% 1%;
+}
+
+.shop-items {
+    display: flex;
+}
+
+.sidebar {
+    width: 25%;
+}
+
+.sidebar select {
+    font-size: 165%;
+    background-color: #292828;
+    color: white;
+    padding: 5% 15%;
+    margin: 20% 5%;
+}
+
+.categories-list-header {
+    font-size: 300%;
+    font-weight: lighter;
+    margin-left: 5%;
+    margin-bottom: 10%;
+}
+
+.categories-dropdown {
+    display: flex;
+    align-items: center;
+}
+
+.categories-dropdown h2 {
+    font-size: 200%;
+    font-weight: lighter;
+    margin-left: 15%;
+}
+
+.categories-dropdown img {
+    margin-left: auto;
+}
+
+/*
+.divider {
+    border-left: 0.5px solid grey;
+    height: 30vh;
+    position: absolute;
+    left: 26%;
+    top: 7%;
+  }
+*/
+
+.items {
+    margin-left: 6%;
+}
+
+.items-header {
+    font-size: 400%;
+    font-weight: lighter;
+    position: relative;
+    top: 4%;
+}
+
+.items-gender {
+    position: relative;
+    top: 8%;
+}
+
+.items-gender-header {
+    font-size: 250%;
+    font-weight: lighter;
+    position: relative;
+    top: 25%;
+    margin-bottom: 5%;
+}
+
+.items-list {
+    position: relative;
+    top: 30%;
+    margin-bottom: 15%;
+}
+
+.row {
+    margin-bottom: 5%;
+}
+
+.product-name {
+    font-size: 200%;
+    font-weight: normal;
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+.product-description {
+    font-weight: lighter;
+    position: relative;
+    right: 25%;
+}
+
+.price-add-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-price {
+    font-weight: lighter;
+    margin-left: 3%;
+}
+
+.product-add {
+    background-color: #292828;
+    color: white;
+    padding: 2% 7%;
+}
+
+.page-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.page-nav button {
+    font-size: 250%;
+    background-color: white;
+    border: 1px solid #707070;
+    padding: 0.2% 1%;
+    margin-right: 1%;
+}
+
+.my-cart-header {
+    width: 20%;
+    font-size: 500%;
+    font-weight: lighter;
+    position: relative;
+    top: 120px;
+    left: 7%;
+}
+
+.cart-items {
+    display: flex;
+    margin: 10% 0% 5% 3%;
+}
+
+.cart-item {
+    margin-right: 3%;
+}
+
+.product-description-my-cart {
+    font-weight: lighter;
+    position: relative;
+    left: 5%;
+}
+
+.product-remove {
+    font-size: 140%;
+    font-weight: lighter;
+}
+
+.checkout {
+    margin-right: 14%;
+    text-align: right;
+}
+
+.checkout h1 {
+    font-size: 200%;
+    font-weight: lighter;
+    text-align: right;
+    
+}
+
+.subtotal-container {
+    display: flex;
+    justify-content: end;
+}
+
+.subtotal {
+    margin-right: 9%;
+}
+
+.items-number {
+    margin-right: 16.3%;
+}
+
+.checkout-button {
+    font-size: 180%;
+    background-color: #292828;
+    color: white;
+    padding: 1% 2%;
+    margin-top: 1%;
+}
+
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-left: 15%;
+}
+
+.sign-up h1 {
+    font-size: 250%;
+    font-weight: lighter;
+    margin-bottom: 2%;
+}
+
+.sign-up label {
+    font-size: 220%;
+    margin-bottom: 1%;
+}
+
+.sign-up input {
+    font-size: 190%;
+    background-color: #EAEAEA;
+    border: none;
+    padding: 0.5% 1%;
+    margin-bottom: 2%;
+}
+
+.sign-up button {
+    width: 10%;
+    font-size: 200%;
+    background-color: #292828;
+    color: white;
+    border: none;
+    padding: 0.5% 1%;
+}
+
+.sign-in-link {
+    font-size: 200%;
+    font-weight: lighter;
+    margin-top: 2%;
+    margin-left: 15%;
+}
