@@ -34,6 +34,7 @@ input[type="text"]:focus {
 
 .search {
     background-color: #707070;
+    color: white;
     font-size: 80%;
     border: none;
     position: relative;
@@ -85,7 +86,7 @@ input[type="text"]:focus {
     font-size: 150%;
     font-weight: 100;
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 15%;
 }
 
