@@ -4,6 +4,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+input[type="text"]:focus {
+    border: none;
+    outline: none;
+  }
+
 .top-nav {
     display: flex;
     box-shadow: 0px 1px 15px 0px rgba(0,0,0,0.5);
@@ -335,7 +340,6 @@ footer {
 .page-nav {
     display: flex;
     justify-content: center;
-    margin-top: 10%;
 }
 
 .page-nav button {
@@ -357,11 +361,12 @@ footer {
 
 .cart-items {
     display: flex;
-    margin: 10% 0% 5% 3%;
+    flex-wrap: wrap;
+    margin: 10% 0% 5% 0%;
 }
 
 .cart-item {
-    margin-right: 3%;
+    margin-left: 3%;
 }
 
 .product-description-my-cart {
