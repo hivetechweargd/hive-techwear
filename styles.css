@@ -143,6 +143,10 @@ input[type="text"]:focus {
     width: 85%;
 }
 
+.offers-container-right {
+    right: 15%;
+}
+
 .nav-offers-headers {
     font-size: 250%;
     position: absolute;
@@ -226,7 +230,7 @@ footer {
     font-size: 75%;
     background-color: #292828;
     color: white;
-    padding: 5% 10%;
+    padding: 7% 10%;
     margin: 10% 5%;
 }
 
@@ -334,6 +338,7 @@ footer {
 
 .product-add {
     background-color: #292828;
+    border-color: #292828;
     color: white;
     padding: 2% 7%;
 }
@@ -412,7 +417,7 @@ footer {
     font-size: 125%;
     background-color: #292828;
     color: white;
-    padding: 1% 2%;
+    padding: 3%;
     margin-top: 1%;
 }
 
@@ -435,10 +440,11 @@ footer {
 }
 
 .sign-up input {
+    width: 95%;
     font-size: 150%;
     background-color: #EAEAEA;
     border: none;
-    padding: 1% 1%;
+    padding: 1%;
     margin-bottom: 2%;
 }
 
