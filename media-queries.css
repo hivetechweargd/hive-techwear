@@ -201,9 +201,244 @@
 }
 
 @media screen and (max-width:600px) and  (min-width:450px){
-    
+    .top-nav-header {
+        font-size: 100%;
+        flex-basis: 30%;
+    }
+
+    .search-container {
+        width: 35%;
+        margin-top: 2%;
+    }
+
+    .search {
+        width: 100%;
+        font-size: 100%;
+    }
+
+    .search-icon {
+        width: 10%;
+        right: 0;
+        padding: 0 4%;
+    }
+
+    .sign-in-up {
+        font-size: 100%;
+        margin-top: 2.7%;
+    }
+
+    .cart-icon {
+        width: 4.5%;
+        margin-top: 0;
+    }
+
+    .header-image h1 {
+        font-size: 160%;
+        line-height: 40px;
+    }
+
+    .header-image h2 {
+        font-size: 100%;
+        top: 55%;
+        left: 10%;
+    }
+
+    .shop-gender-header {
+        font-size: 150%;
+    }
+
+    .shop-gender-links {
+        font-size: 100%;
+    }
+
+    .nav-headers {
+        margin-left: 10%;
+    }
+
+    .nav-item-type {
+        margin-left: 10%;
+    }
+
+    .nav-item-type img {
+        width: 90%;
+    }
+
+    .nav-item-type-right {
+        position: relative;
+        right: 5%;
+    }
+
+    .nav-offers {
+        margin-left: 13%;
+    }
+
+    .nav-offers-headers {
+        font-size: 120%;
+        left: 10%;
+    }
+
+    .nav-offers-paragraphs {
+        font-size: 100%;
+        left: 10%;
+    }
+
+    .get-now {
+        font-size: 90%;
+        left: 20%;
+        top: 75%;
+    }
+
+    .footer-headers h1 {
+        font-size: 160%;
+    }
+
+    .footer-headers p {
+        font-size: 100%;
+    }
+
+    .socials img {
+        width: 4%;
+    }
+
+    .footer-bottom p {
+        font-size: 65%;
+    }
+
+    .shop-items {
+        margin-top: 1%;
+    }
+
+    .sidebar select {
+        font-size: 80%;
+        padding: 10% 0;
+    }
+
+    .categories-list-header {
+        font-size: 150%;
+    }
+
+    .categories-dropdown h2 {
+        font-size: 120%;
+    }
+
+    .categories-dropdown img {
+        width: 15%;
+    }
+
+    .items-header {
+        font-size: 200%;
+        top: 1.5%;
+    }
+
+    .items-gender-header {
+        font-size: 150%;
+    }
+
+    .col {
+        width: 45%;
+    }
+
+    .product-name {
+        width: 80%;
+        font-size: 135%;
+    }
+
+    .product-description {
+        font-size: 90%;
+        margin-top: 5%;
+    }
+
+    .product-price {
+        font-size: 120%;
+    }
+
+    .product-add {
+        font-size: 90%;
+    }
+
+    .page-nav {
+        margin-top: 5%;
+    }
+
+    .page-nav button {
+        font-size: 100%;
+        padding: 0.5% 1.5%;
+    }
+
+    .my-cart-header {
+        width: 30%;
+        font-size: 200%;
+        top: 30px;
+    }
+
+    .cart-items {
+        margin: 15% 0% 5% 13%;
+    }
+
+    .cart-item {
+        width: 40%;
+    }
+
+    .cart-item img {
+        width: 100%;
+    }
+
+    .product-description-my-cart {
+        font-size: 80%;
+    }
+
+    .product-price {
+        margin-left: 0;
+    }
+
+    .product-remove {
+        font-size: 120%;
+    }
+
+    .checkout h1 {
+        font-size: 130%;
+    }
+
+    .items-number {
+        margin-right: 29%;
+    }
+
+    .checkout-button {
+        font-size: 105%;
+        padding: 5%;
+        position: relative;
+        left: 10%;
+    }
+
+    .sign-up h1 {
+        font-size: 200%;
+        margin-bottom: 5%;
+    }
+
+    .sign-up label {
+        font-size: 165%;
+    }
+
+    .sign-up input {
+        font-size: 160%;
+        padding: 2% 1%;
+        margin-bottom: 4%;
+    }
+
+    .sign-up button {
+        width: 25%;
+        font-size: 150%;
+        padding: 2%;
+    }
+
+    .sign-in-link {
+        font-size: 115%;
+        margin-top: 3%;
+    }
+
 }
-@media screen and (max-width:920px) and (min-width:450px){
+
+@media screen and (max-width:920px) and (min-width:600px){
     .top-nav-header {
         font-size: 150%;
         flex-basis: 30%;
