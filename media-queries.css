@@ -173,6 +173,10 @@
         left: 10%;
     }
 
+    .sign-up {
+        margin-left: 5%;
+    }
+
     .sign-up h1 {
         font-size: 150%;
         margin-bottom: 5%;
@@ -197,6 +201,7 @@
     .sign-in-link {
         font-size: 90%;
         margin-top: 3%;
+        margin-left: 5%;
     }
 }
 
@@ -410,6 +415,10 @@
         left: 10%;
     }
 
+    .sign-up {
+        margin-left: 5%;
+    }
+
     .sign-up h1 {
         font-size: 200%;
         margin-bottom: 5%;
@@ -434,6 +443,7 @@
     .sign-in-link {
         font-size: 115%;
         margin-top: 3%;
+        margin-left: 5%;
     }
 
 }
@@ -634,6 +644,9 @@
         padding: 5%;
     }
 
+    .sign-up {
+        margin-left:  5%;
+    }
 
     .sign-up h1 {
         margin-bottom: 5%;
@@ -657,6 +670,7 @@
 
     .sign-in-link {
         font-size: 150%;
+        margin-left: 5%;
     }
 
 }
